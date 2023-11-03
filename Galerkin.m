@@ -15,7 +15,7 @@ end
 T = 10; % Final time
 k = T/10000; % Time step
 % Initial conditions at t = 0
-height = 5; % Initial wave height (height of 3, viscosity of 5 is a fun near blow up)
+height = 5; % Initial wave height
 center = pi-1;
 u = exp(-1*(center-x).^2)*height; % Gauss wave centered at x = center, with given height 
 v = .05; % Viscosity
